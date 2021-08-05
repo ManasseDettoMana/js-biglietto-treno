@@ -2,7 +2,7 @@
 let chilometri = parseInt(prompt("Quanti chilometri intende percorrere?"));
 let eta = parseInt(prompt("Quanti hanni ha?"));
 
-document.getElementById("chilometri").innerHTML = chilometri
+document.getElementById("chilometri").innerHTML = chilometri;
 document.getElementById("eta").innerHTML = eta;
 
 
@@ -16,4 +16,3 @@ else if(eta>65){
 }
 
 document.getElementById("prezzo_biglietto").innerHTML = prezzoBiglietto.toFixed(2);
-console.log("il prezzo del biglietto è di: " + prezzoBiglietto);
