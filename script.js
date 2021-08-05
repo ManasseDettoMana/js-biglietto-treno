@@ -2,6 +2,10 @@
 let chilometri = parseInt(prompt("Quanti chilometri intende percorrere?"));
 let eta = parseInt(prompt("Quanti hanni ha?"));
 
+document.getElementById("chilometri").innerHTML = chilometri
+document.getElementById("eta").innerHTML = eta;
+
+
 let prezzoBiglietto = chilometri * 0.21;
 
 if(eta<18){
